@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/d4fa596027.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+          Helvetica Neue, sans-serif;
+          box-sizing: border-box;
+
+        }
+        .heddr{
+            height: 70px;
+            background: white;
+    box-shadow: 0px 1px 1px -1px;
+
+
+        }
+        .img_sm{
+            height: 30px;
+            width: 30px;
+        }
+        #img2{  
+           border-radius: 20px; 
+        }
+        #img3{
+            border-radius: 20px; 
+        }
+        .header_main{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            margin: 0 auto;
+            padding: 16px 0px;
+        }
+        .header_sm_bar{
+            display: flex;
+            align-items: center;
+            gap: 22px;
+
+        }
+        .menubarimg{
+            width: 35px;
+        }
+         /*first sec css */ 
+        .SecOne_mainsec{
+            background-image: url("imgs/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg444\ \(1\).jpg");
+            height: 800px;
+            background-position: 50% 50%;
+            background-size: cover;
+            object-fit: cover;
+        }
+       .f_secContaine{  
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        position: relative;
+          }
+          .vacant_sec{
+            width: 55%;
+            background-color:#B4BD9B;
+            height: 450px;
+            position: absolute;
+            right: 0;
+            top: 110px;
+          }
+          .filld_sec{
+            width: 60%;
+            background-color: #FFFFFF;
+            height: 350px;
+            position: absolute;
+            right: 55px;
+            top: 160px;
+
+          }
+          .interior{
+            font-size: 21px;
+            
+          }
+          .home{
+            font-size: 3.7rem;
+           font-weight: 100;
+           margin: 20px 0px;
+          }
+          .flledSecTxt{
+            padding: 40px;
+          }
+          .freep{
+            border-bottom: 1px solid;
+             margin-left: 8px;
+          }
+           /*second sec css */ 
+           .Sectwo_Mainsec{
+            width: 90%;
+            margin: 0 auto;
+           }
+          .Secttwo_container{
+            
+            display: flex;
+           width: 100%;
+           margin-top: 70px;
+          }
+          .Right_Sec_img2{
+            width: 450px;
+            height: 450px;
+            border-radius: 50%;
+            margin-top: 40px;
+          }
+          .lef_Sec{
+            width: 50%;
+          }
+          .Right_Sec{
+            width: 50%;
+            position: relative;
+          }
+          .Right_Sec_container{
+            position: absolute;
+            z-index: -1;
+            right: 0;
+          }
+          .Right_Sec_img1{
+            width: 400px;
+          }
+          .left_secimg{
+            width: 500px;
+
+          }
+          .left_sectxt{
+            font-size: 3rem;
+          line-height: 1.1;
+          margin-top: 20px;
+          }
+          .left_secpara{
+            font-size: 1.125rem;
+             line-height: 2.0;
+             margin: 20px 0px 20px 0px;
+             word-wrap: break-word;
+            color: black;
+             padding-right: 70px;
+          }
+          .Right_Sec_txt{
+            padding: 20px 60px 20px 0;
+            margin-bottom: 30px;
+          }
+          .Right_Sec_para{
+            line-height: 1.8;
+            margin: 0;
+            font-size: 1.125rem;
+          }
+          .Right_Sec_anchr{
+            border: 2px solid darkgreen;
+            padding: 12px 40px;
+            text-decoration: none;
+             color: black;
+             font-weight: 600;
+              font-size: 17px;}
+          .Right_Sec_anchr:hover{
+            background-color: darkgreen;
+            color: white;
+          }
+          /*Third sec css */ 
+          .SecThree_Subcont{
+              margin: 0 auto;
+              width: 90%;
+              padding-top: 100px;
+            }
+            .SecThree_Top{
+              display: flex;
+             align-items: center;
+             gap: 60px;
+             margin-bottom: 60px;
+            }
+            .SecThree_NBox{
+              background-color:#6A7C3E;
+             width: 17%;
+             height: 180px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+            }
+            .hed_SecThree_{
+              font-weight: 700;
+             font-size: 3.75rem;
+            margin: 0 auto;
+            color: white;
+            }
+            .SecThree_txt{
+              width: 80%;
+            }
+            .SecThree_Hdngtxt{
+              font-size: 3rem;
+              line-height: 1.1;
+              font-weight: 700;
+             
+            }
+            .SecThree_bttm{
+              display: flex;
+              width: 100%;
+            }
+            .SecThree_bttmImg1{
+              width: 33.3%;
+            }
+            .SecThree_bttmImg{
+              width: 360px;
+              height: 320px;
+              cursor: pointer;
+            }
+
+              /*Fourth sec css */ 
+
+            .Top_sectFour{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+        }
+        .Top_sectFour h1{
+          font-size: 3rem;
+        }
+        .Top_sectFour p{
+          font-size: 20px;
+        }
+       .sectFour_main{
+          margin: 100px auto;
+          width: 90%;
+        }
+        .botm_topImg{
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          align-items: flex-end;
+          gap: 25px;
+        }
+        .botm_btmImg{
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          gap: 25px;
+        }
+        .botm_topImg1{
+          width: 250px;
+          height: 250px;
+        }
+        .botm_sectFour{
+          display: flex;
+          width: 100%;
+          gap: 30px;
+          margin-top: 50px;
+        }
+        .botm_topImg2{
+          width: 100%;
+          height: 500px;
+          object-fit: cover;
+        }
+
+    </style>
+</head>
+<body>
+     <!--header section-->
+     <header class="heddr">
+        <div class="header_main">
+            <div class="header_logo">
+                <img src="./imgs/d03cc6e5-2eb6-4776-9a93-7e74e581851e_150.png" alt="">
+            </div>
+            <div class="header_sm_bar">
+                <div>
+                    <a href="">
+                        <img class="menubarimg" src="imgs/free-menu-1912215-1617684.png" alt="">
+                    </a>
+                </div>
+            <div class="header_socilMedia">
+                <img class="img_sm" src="./imgs/facebbok.jpg" alt="">
+                <img class="img_sm" id="img2" src="./imgs/twittr.png" alt="">
+                <img class="img_sm" id="img3" src="./imgs/Instagram_logo_2016.svg.webp" alt="">
+            </div>
+           </div>
+        </div>
+     </header>
+
+          <!--section one-->
+          <section class="SecOne_mainsec">
+            <div class="f_secContaine">
+                <div class="vacant_sec">
+
+                </div>
+                <div class="filld_sec">
+                <div class="flledSecTxt">
+                 <h4 class="interior">INTERIOR STUDIO</h4>
+                 <h1 class="home">Home is not a place it's a feeling</h1>
+                 <p class="imgtxt">Image from<span class="freep">Freepik</span></p>
+                </div>
+                </div>
+                
+            </div>
+            
+          </section>
+           <!--section two-->
+          <section>
+            <div class="Sectwo_Mainsec">
+            <div class="Secttwo_container">
+            <div class="lef_Sec">
+             <img class="left_secimg" src="./imgs/gggg (1).jpg" alt="">
+             <h2 class="left_sectxt">Interior Design and Space Planning</h2>
+             <p class="left_secpara" >In dictum non consectetur a erat nam at. Turpis egestas maecenas 
+              pharetra convallis posuere morbi. Scelerisque purus semper eget duis.
+               Dui id ornare arcu odio ut sem nulla pharetra.</p>
+               <p class="imgtxt">Image from<span class="freep">Freepik</span></p>
+            </div>
+         
+            <div class="Right_Sec">
+              <div class="Right_Sec_container">
+               <img class="Right_Sec_img1" src="./imgs/stock-vector-seamless-monochrome-polka-dot-pattern-dotted-background-539326531.jpg" alt="">
+              </div>
+              <div>
+                <img class="Right_Sec_img2" src="./imgs/g.jpg" alt="">
+              </div>
+              <div class="Right_Sec_txt">
+              <p class="Right_Sec_para">Quis commodo odio aenean sed. Risus viverra adipiscing at in tellus integer 
+                feugiat scelerisque varius. Sit amet aliquam id diam. Eget dolor morbi non arcu 
+                risus quis varius quam. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Urna id volutpat lacus laoreet.
+              </p>
+              </div>
+              <a class="Right_Sec_anchr" href="#">LEARN MORE</a>
+
+            </div>
+            </div>
+            </div>
+          </section>
+           <!--section three-->
+          <section class="SecThree_Mainsec">
+            <div class="SecThree_cont">
+              <div class="SecThree_Subcont">
+               <div class="SecThree_Top">
+               <div class="SecThree_NBox">
+                <h2 class="hed_SecThree_">01</h2>
+               </div>
+               <div class="SecThree_txt">
+                <h1 class="SecThree_Hdngtxt">We can envision a new fresh look for your apartment, house, office or practice</h1>
+               </div>
+               </div>
+               <div class="SecThree_bttm_main">
+               <div class="SecThree_bttm">
+                <div class="SecThree_bttmImg1"><img class="SecThree_bttmImg" src="./imgs/g.jpg" alt=""></div>
+                <div class="SecThree_bttmImg1"><img class="SecThree_bttmImg" src="./imgs/pexels-cup-of-couple-6633450.jpg" alt=""></div>
+                <div class="SecThree_bttmImg1"><img class="SecThree_bttmImg" src="./imgs/56456.jpg" alt=""></div>
+              </div>
+              </div>
+            </div>
+          </section>
+           
+
+      <!--section four-->
+      <section>
+        <div class="sectFour_main">
+          <div class="Top_sectFour">
+              <h1>Lastest Project</h1>
+              <p>Phasellus scelerisque sed leo quis gravida. Fusce lobortis libero ut arcu blandit pharetra.</p>
+          </div>
+
+          <div class="botm_sectFour">
+            <div class="botm_topImg">
+            <img class="botm_topImg1" src="./imgs/676b13d38454f01eafb6d8d873761e17 (1).jpeg" alt="">
+            <img class="botm_topImg2" src="./imgs/d30ef3549739acd770d4fe2643ec3ded.jpeg" alt="">
+
+            </div>
+        
+            <div class="botm_btmImg">
+            <img class="botm_topImg2" src="./imgs/51e9d44b4856b108f5d08460962934761237d6ed5a4c704c72297bd2914bcd5a_1280.jpg" alt="">
+            <img  class="botm_topImg1"  src="./imgs/afd377e224603dfabddc6e7d688b1eb8.jpeg" alt=""></div>
+           </div>
+         </div>
+        </div>
+      </section>
+
+      <!--section five-->
+          <section class="SecThree_Mainsec">
+            <div class="SecThree_cont">
+              <div class="SecThree_Subcont">
+               <div class="SecThree_Top">
+               <div class="SecThree_txt">
+                <h1 class="SecThree_Hdngtxt">We can envision a new fresh look for your apartment, house, office or practice</h1>
+               </div>
+               <div class="SecThree_NBox">
+                <h2 class="hed_SecThree_">02</h2>
+               </div>
+               </div>
+               <div class="SecThree_bttm_main">
+               <div class="SecThree_bttm">
+                <div class="SecThree_bttmImg1"><img class="SecThree_bttmImg" src="./imgs/g.jpg" alt=""></div>
+                <div class="SecThree_bttmImg1"><img class="SecThree_bttmImg" src="./imgs/pexels-cup-of-couple-6633450.jpg" alt=""></div>
+                <div class="SecThree_bttmImg1"><img class="SecThree_bttmImg" src="./imgs/56456.jpg" alt=""></div>
+              </div>
+              </div>
+            </div>
+            </div>
+          </section>
+
+  <!--section six-->
+          <section>
+            <style>
+              .Secfour_Vacsec{
+                width: 100%;
+                height: 300px;
+                background-color:#CAD1B6;
+                margin: 246px auto 0 0;
+              }
+              .Secfour_Mainsec{
+                position: relative;
+              }
+              .Secfour_FormSec{
+                display: flex;
+              margin-top: -445px;
+               
+              }
+              .check{
+                width: 80%;
+                margin:0 auto;
+              }
+              .container{  background: white;
+                 width: 500px;
+                padding: 30px;
+                  }
+                  .inptsec{
+                    padding: 8px 0px;
+                    border: none;
+                    border-bottom: 2px solid;
+                   width: 100%;
+                    font-size: 21px;
+                    margin: 20px 0px;
+                  }
+            </style>
+              <div class="Secfour_Mainsec">
+                <div class="Secfour_Vacsec">
+
+                </div>
+                <div class="check">
+                <div class="Secfour_FormSec">
+
+                  <div class="container">
+                    <h2>Contact Us</h2>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                             <input type="text" class="inptsec" placeholder="Enter your Name" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email"  class="inptsec" placeholder=" Enter your Email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message"  class="inptsec" placeholder="Message" name="message" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                  <img src="./imgs/painting-hanging-shelf-full-cacti-succulents_53876-110301.jpg" alt="">
+                </div>
+                </div>
+              </div>
+              </div>
+          </section>
+        
+   <!--Btmm six-->     
+   <style>
+    .Btm_top_mai{
+      background-color: #333333;
+      width: 100%;
+    height: 300px;
+    }
+      .Btm_top_Cont{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+       }
+   </style> 
+   <div class="Btm_top_mai">
+    <div class="Btm_top_Cont">
+      <div class="leftSidetxt_logo">
+       <p>Copyright © 2018 All rights reserved.
+        This template is made with by Nicepage </p>
+        <div>
+          <span><i class="fa-brands fa-facebook-f" style="color:white"></i></span>
+          <span><i class="fa-brands fa-twitter" style="color: #94a3bc;"></i></span>
+          <span> <i class="fa-brands fa-instagram" style="color: #a7aeb9;"></i></span>
+          <span><i class="fa-brands fa-linkedin-in" style="color: #cad1de;"></i></span>
+       </div>
+      </div>
+
+      <div class="rightLinks">
+       <div><li>Home</li>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Portfolio</li>
+          </div>
+            <div>
+              <li>Terms & Conditions</li>
+              <li>FAQ</li>
+              <li>Help Desk</li>
+              <li>Job Aplications</li>
+            </div>
+              <div>
+                <li>Privacy</li>
+                <li>
+                  Contact us</li>
+                <li>Newsletter</li>
+                <li>Clients Testimonials</li>
+              </div>
+      
+      </div>
+    </div>
+   </div> 
+
+
+
+</body>
+</html>
